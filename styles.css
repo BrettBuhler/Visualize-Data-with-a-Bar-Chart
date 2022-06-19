@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: rgba(32, 6, 105, 0.318);
+    margin-top: 2.5%;
+    color: azure;
+    border-radius: 4px;
+
+}
+rect:hover {
+    fill:azure;
+}
+rect {
+    fill: rgb(2, 9, 33);
+    border: none;
+}
+#tooltip {
+    font-size: 2rem;
+    color: azure;
+    background-color: rgba(32, 6, 105, 0.318);
+    margin-top: 10px;
+}
+body {
+    background: linear-gradient(45deg, rgb(181, 179, 226), rgba(147, 77, 227, 0.506));
+}
+#title {
+    fill: azure;
+}
